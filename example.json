@@ -1,0 +1,65 @@
+[
+    {
+        "OpCo": "CH",
+        "Domain Name": "randstad.ch",
+        "Transformation": "Operational",
+        "SPF Record": "v=spf1 a mx ip4:55.93.55.66 ip4:77.111.95.176 ip4:54.154.40.205 ip4:108.170.4.42 ip4:81.19.181.228 ip4:81.19.181.227 include:spf.minicrm.io include:spf.bitagency.com include:_spf.qualtrics.com include:emsd1.com include:_spf.google.com ~all",
+        "DMARC Record": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.report@randstad.hu;ruf=mailto:dmarc.report@randstad.hu"
+    },
+    {
+        "OpCo": "HU",
+        "Domain Name": "randstad.hu",
+        "Transformation": "Operational",
+        "SPF Record": "v=spf1 ip4:52.214.104.253 ip4:52.30.70.37 ip4:52.211.134.203 ip4:46.22.189.51 ip4:80.95.173.197 ip4:149.72.194.37 ip4:62.245.111.132 ip6:2a02:8304:2:66::2  a mx include:_spf.google.com include:_spf.qualtrics.com include:spf.emailkampane.cz ~all",
+        "DMARC Record": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports@randstad.cz;ruf=mailto:dmarc.reports@randstad.cz"
+    },
+    {
+        "OpCo": "RO",
+        "Domain Name": "randstad.ro",
+        "Transformation": "Operational",
+        "SPF Record": "v=spf1 ip4:188.174.236.208/28 ip4:185.75.168.80 ip4:87.106.186.33 ip4:212.25.15.196 ip4:159.255.168.120 ip4:94.199.88.0/22 ip4:82.135.18.0/23 ip4:62.245.148.0/26 ip4:62.134.45.32/28 ip4:94.199.92.0/23 ip4:185.93.140.0/23 ip4:103.196.252.0/22 ip4:185.215.216.0/26 ip4:207.126.138.0/22 ip4:199.204.13.32/29 ip4:62.204.93.131 ip4:207.244.98.227 ip4:83.149.98.72 ip4:81.17.56.1 ip4:83.149.98.73 ip4:13.88.226.191 ip4:40.115.66.46 ip4:13.94.232.90 ip4:191.238.213.99 ip4:51.13.102.144 include:_spf.google.com include:_spf.salesforce.com include:spf.gulp.4hr.de include:amazonses.com include:spf.de.umantis.com include:spf.crsend.com -all",
+        "DMARC Record": "v=DMARC1;p=reject;sp=none;pct=100;fo=1;rua=mailto:dmarc.reports@randstad.de;ruf=mailto:dmarc.rufreports@randstad.de"
+    },
+    {
+        "OpCo": "PL",
+        "Domain Name": "randstad.pl",
+        "Transformation": "Operational",
+        "SPF Record": "v=spf1 mx include:_spf.google.com include:spf.fromdoppler.com ip4:3.225.40.1 include:_spf.qualtrics.com include:_spf.qemailserver.com include:amazonses.com include:_spf.bullhornmail.com ~all",
+        "DMARC Record": "v=DMARC1;p=reject;pct=100;fo=1;rua=mailto:dmarc.reports@randstad.com.ar;ruf=mailto:dmarc.rufreports@randstad.com.ar"
+    },
+    {
+        "OpCo": "TR",
+        "Domain Name": "randstad.com.tr",
+        "Transformation": "Operational",
+        "SPF Record": "v=spf1 a mx include:_spf.anpdm.com  include:spf.bitagency.com include:_spf.google.com ip4:62.103.24.254/32 ip4:62.148.176.18/32 ip4:81.93.54.242/32 ip4:81.93.58.170/32 ip4:81.93.51.192/26 ~all",
+        "DMARC Record": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com"
+    },
+    {
+        "OpCo": "AR",
+        "Domain Name": "randstad.com.ar",
+        "Transformation": "Transition",
+        "SPF Record": "v=spf1 include:spf1.randstad.ch include:spf2.randstad.ch include:_spf.google.com include:spf.smtp2go.com ip4:62.2.117.170 ip4:77.59.194.201 ip4:185.134.240.6 ip4:185.134.242.26 ~all",
+        "DMARC Record": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports@randstad.ch;ruf=mailto:dmarc.reports@randstad.ch"
+    },
+    {
+        "OpCo": "CL",
+        "Domain Name": "randstad.cl",
+        "Transformation": "Operational",
+        "SPF Record": "v=spf1 include:_spf.google.com include:spf.bitagency.com include:_spf.qualtrics.com include:amazonses.com include:2704296.spf08.hubspotemail.net include:_spf.hcmdeck.com ip4:46.22.189.51 ip4:80.95.173.197 ip4:149.72.194.37 ~all",
+        "DMARC Record": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports@randstad.pl;ruf=mailto:dmarc.reports@randstad.pl"
+    },
+    {
+        "OpCo": "CZ",
+        "Domain Name": "randstad.cz",
+        "Transformation": "Operational",
+        "SPF Record": "v=spf1 mx ip4:18.213.102.205 ip4:52.21.80.45 include:_spf.google.com include:fidelizador.org include:amazonses.com ~all",
+        "DMARC Record": "v=DMARC1;p=reject;pct=100;fo=1;rua=mailto:dmarc.reports@randstad.cl;ruf=mailto:dmarc.rufreports@randstad.cl"
+    },
+    {
+        "OpCo": "DE-GULP",
+        "Domain Name": "gulp.de",
+        "Transformation": "Operational",
+        "SPF Record": "v=spf1 a include:_spf.google.com include:_spf.qualtrics.com include:emsd1.com ip4:176.223.66.15 ip4:89.40.36.127 +a +mx +ip4:176.223.66.6 ~all",
+        "DMARC Record": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.a@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports.a@toolkit.randstadholding.com"
+    }
+]

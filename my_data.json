@@ -1,0 +1,12 @@
+[
+  {
+    "opco_code": "CH",
+    "domain_name": "randstad.ch",
+    "dmarc_policy_old": "none",
+    "dmarc_policy_new": "reject",
+    "spf_policy_change_old": null,
+    "spf_policy_change_new": null,
+    "transformation_old": null,
+    "transformation_new": null
+  }
+]
