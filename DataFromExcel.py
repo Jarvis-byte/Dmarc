@@ -54,7 +54,6 @@ class DataFromExcel:
             part_indices.append((start_index, end_index))
             start_index = end_index
 
-
         with concurrent.futures.ThreadPoolExecutor() as executor:
             f1 = executor.submit(HttpHandler().get_request, data_list, part_indices[0][0], part_indices[0][1])
             f2 = executor.submit(HttpHandler().get_request, data_list, part_indices[1][0], part_indices[1][1])
@@ -67,7 +66,7 @@ class DataFromExcel:
             # + f2.result() + f3.result() + f4.result() + f5.result() + f6.result() + f7.result() + f8.result()
             results = f1.result() + f2.result() + f3.result() + f4.result() + f5.result() + f6.result() + f7.result() + f8.result()
 
-        # Find the policy change
+            # Find the policy change
 
             Dmarc_Policy_Change = []
 
@@ -78,7 +77,7 @@ class DataFromExcel:
                 policyclass.opco_code = Old_data_List[a].opco_code
 
                 old_dmarc_policy = Old_data_List[a].dmarc_policy
-            # print(old_dmarc_policy)
+                # print(old_dmarc_policy)
                 final_old_p = None
 
                 if old_dmarc_policy != "No DMARC Record" and old_dmarc_policy != None:
@@ -98,15 +97,28 @@ class DataFromExcel:
                     policyclass.dmarc_policy_old = final_old_p
                     policyclass.dmarc_policy_new = final_new_p
                     check = True
+                elif old_dmarc_policy != None and (final_old_p == final_new_p):
+                    policyclass.dmarc_policy_old = "N/A"
+                    policyclass.dmarc_policy_new = "N/A"
+
+
                 if Old_data_List[a].spf_policy != None and Old_data_List[a].spf_policy != results[a].spf_policy:
                     policyclass.spf_policy_change_old = Old_data_List[a].spf_policy
                     policyclass.spf_policy_change_new = results[a].spf_policy
                     check = True
+                elif  Old_data_List[a].spf_policy != None and Old_data_List[a].spf_policy == results[a].spf_policy:
+                    policyclass.spf_policy_change_old = "N/A"
+                    policyclass.spf_policy_change_new = "N/A"
+
                 if Old_data_List[a].transformation != None and Old_data_List[a].transformation != results[
                     a].transformation:
                     policyclass.transformation_old = Old_data_List[a].transformation
                     policyclass.transformation_new = results[a].transformation
                     check = True
+                elif Old_data_List[a].transformation != None and Old_data_List[a].transformation == results[
+                    a].transformation:
+                    policyclass.transformation_old = "N/A"
+                    policyclass.transformation_new = "N/A"
                 if check:
                     Dmarc_Policy_Change.append(policyclass)
 

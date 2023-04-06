@@ -1,17 +1,5 @@
 OpCo,Domain Name,Transformation,Date,DNSEEC,Domain Status,SPF,Dmarc Policy,SPF Count
-APAC,ploy-pro.com.au,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.a@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports.a@toolkit.randstadholding.com,0
+APAC,ploy-pro.com.au,Transformation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.a@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports.a@toolkit.randstadholding.com,0
 APAC,apiet.com.au,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
 APAC,areteleaders.com.au,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,aussiecomehome.com,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,aussiecomehome.com.au,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,capsecur.com.au,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,claytonford.co.nz,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,claytonford.com.au,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,claytonford.com.sg,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,clinicalone.co.nz,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,clinicalone.com.au,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,clinicalone.com.sg,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,coopersrecruitment.com.au,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-APAC,edenbrown.co.nz,Operation,,,,v=spf1 -all,v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com,0
-IN,randstad.in,Operation,,,,v=spf1 mx ip4:167.89.28.224 include:_spf.google.com include:spf_c.oraclecloud.com include:396971.spf10.hubspotemail.net include:mail.zendesk.com ~all,v=DMARC1;p=quarantine;pct=100;rua=mailto:dmarc.reports@randstad.in;ruf=mailto:dmarc.rufreports@randstad.in,10
-Global,randstad.com,Operation,,,,v=spf1 include:396971.spf10.hubspotemail.net include:spf1.randstad.com include:spf2.randstad.com include:_spf.google.com ~all,v=DMARC1;p=reject;sp=reject;pct=100;rua=mailto:dmarc.reports@randstad.com;ruf=mailto:dmarc.rufreports@randstad.com,
+In,randstad.in,Transformation,,,,v=spf1 mx ip4:167.89.28.224 include:_spf.google.com include:spf_c.oraclecloud.com include:396971.spf10.hubspotemail.net include:mail.zendesk.com ~all,v=DMARC1;p=quarantine;pct=100;rua=mailto:dmarc.reports@randstad.in;ruf=mailto:dmarc.rufreports@randstad.in,10

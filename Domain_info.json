@@ -2,7 +2,7 @@
     {
         "OpCo": "APAC",
         "Domain Name": "ploy-pro.com.au",
-        "Transformation": "Operation",
+        "Transformation": "Transformation",
         "Date": null,
         "DNSEEC": null,
         "Domain Status": null,
@@ -33,146 +33,14 @@
         "SPF Count": "0"
     },
     {
-        "OpCo": "APAC",
-        "Domain Name": "aussiecomehome.com",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "aussiecomehome.com.au",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "capsecur.com.au",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "claytonford.co.nz",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "claytonford.com.au",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "claytonford.com.sg",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "clinicalone.co.nz",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "clinicalone.com.au",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "clinicalone.com.sg",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "coopersrecruitment.com.au",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "APAC",
-        "Domain Name": "edenbrown.co.nz",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 -all",
-        "Dmarc Policy": "v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.reports.b@toolkit.randstadholding.com;ruf=mailto:dmarc.rufreports@toolkit.randstadholding.com",
-        "SPF Count": "0"
-    },
-    {
-        "OpCo": "IN",
+        "OpCo": "In",
         "Domain Name": "randstad.in",
-        "Transformation": "Operation",
+        "Transformation": "Transformation",
         "Date": null,
         "DNSEEC": null,
         "Domain Status": null,
         "SPF": "v=spf1 mx ip4:167.89.28.224 include:_spf.google.com include:spf_c.oraclecloud.com include:396971.spf10.hubspotemail.net include:mail.zendesk.com ~all",
         "Dmarc Policy": "v=DMARC1;p=quarantine;pct=100;rua=mailto:dmarc.reports@randstad.in;ruf=mailto:dmarc.rufreports@randstad.in",
         "SPF Count": "10"
-    },
-    {
-        "OpCo": "Global",
-        "Domain Name": "randstad.com",
-        "Transformation": "Operation",
-        "Date": null,
-        "DNSEEC": null,
-        "Domain Status": null,
-        "SPF": "v=spf1 include:396971.spf10.hubspotemail.net include:spf1.randstad.com include:spf2.randstad.com include:_spf.google.com ~all",
-        "Dmarc Policy": "v=DMARC1;p=reject;sp=reject;pct=100;rua=mailto:dmarc.reports@randstad.com;ruf=mailto:dmarc.rufreports@randstad.com",
-        "SPF Count": "9"
     }
 ]

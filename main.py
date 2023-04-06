@@ -10,10 +10,10 @@ import requests
 from io import BytesIO
 def main(filename=None, data=None):
     # Replace with the ID of your Google Sheet
-    SPREADSHEET_ID = '1RWhIYQTnqLGteYgmfrPZkbgZ8SUq_nD4iuBcpXINxyE'
+    SPREADSHEET_ID = '188lKNuzMXplzkO6UpZLsFOHx-NgDXA3lfZpvkSV-neE'
 
     # Replace with the path to your service account JSON key file
-    SERVICE_ACCOUNT_FILE = 'testprojectdmarc-034ca8acbb1f.json'
+    SERVICE_ACCOUNT_FILE = 'gis-bcdr-ops-fe35-84aa16f1f12c.json'
 
     # Authenticate and build the service object
     creds = None
