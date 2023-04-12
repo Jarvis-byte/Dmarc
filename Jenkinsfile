@@ -10,7 +10,7 @@ pipeline {
     stage('Run') {
       steps {
         // Change to the directory containing your Python script
-        dir('https://github.com/Jarvis-byte/Dmarc.git') {
+        dir('Dmarc') {
           // Run the Python script
           sh 'python main.py'
         }
