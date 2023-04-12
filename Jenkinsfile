@@ -1,14 +1,14 @@
- pipeline {
+pipeline {
   agent any
   stages {
     stage('version') {
       steps {
-        sh 'python3 --version'
+        sh 'python --version'
       }
     }
     stage('hello') {
       steps {
-        bat 'start /b python3 main.py'
+        bat 'start /b python main.py'
       }
     }
   }
