@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'python3 main.py'
+        bat 'start /b python3 main.py'
       }
     }
   }
