@@ -1,3 +1,4 @@
+
 pipeline {
   agent any
   stages {
@@ -9,10 +10,10 @@ pipeline {
     }
     stage('Run') {
       steps {
-        // Change to the directory containing your Python script
+        // Change to the directory where the repository is cloned
         dir('Dmarc') {
-          // Run the Python script
-          sh 'python main.py'
+          // Run the Python script in the background on Windows
+          bat 'start /b python main.py'
         }
       }
     }
