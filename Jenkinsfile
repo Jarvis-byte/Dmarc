@@ -1,14 +1,19 @@
 pipeline {
   agent any
   stages {
-    stage('version') {
+    stage('Checkout') {
       steps {
-        sh 'python --version'
+        // Checkout the repository from GitHub
+        git 'https://github.com/Jarvis-byte/Dmarc.git'
       }
     }
-    stage('hello') {
+    stage('Run') {
       steps {
-        bat 'start /b python main.py'
+        // Change to the directory containing your Python script
+        dir('https://github.com/Jarvis-byte/Dmarc.git') {
+          // Run the Python script
+          sh 'python main.py'
+        }
       }
     }
   }
